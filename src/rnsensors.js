@@ -33,7 +33,7 @@ const nativeApis = new Map([
   ["barometer", BarNative],
   ["gravity", GravNative],
   ["light", LightNative],
-  ["linearAcceleration", LinAccNative],
+  ["linearacceleration", LinAccNative],
   ["orientation", OrienNative],
   ["proximity", ProxNative],
 ]);
