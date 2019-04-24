@@ -6,7 +6,7 @@ const {
   Barometer: BarNative,
   Gravity: GravNative,
   Light: LightNative,
-  LinearAcceleration: LinAccNative,
+  Linearacceleration: LinAccNative,
   Orientation: OrienNative,
   Proximity: ProxNative
 } = NativeModules;

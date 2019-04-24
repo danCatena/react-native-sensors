@@ -17,7 +17,7 @@ import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
-public class LinearAcceleration extends ReactContextBaseJavaModule implements SensorEventListener {
+public class Linearacceleration extends ReactContextBaseJavaModule implements SensorEventListener {
 
   private final ReactApplicationContext reactContext;
   private final SensorManager sensorManager;
@@ -26,7 +26,7 @@ public class LinearAcceleration extends ReactContextBaseJavaModule implements Se
   private int interval;
   private Arguments arguments;
 
-  public LinearAcceleration(ReactApplicationContext reactContext) {
+  public Linearacceleration(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
     this.sensorManager = (SensorManager)reactContext.getSystemService(reactContext.SENSOR_SERVICE);
@@ -63,7 +63,7 @@ public class LinearAcceleration extends ReactContextBaseJavaModule implements Se
 
   @Override
   public String getName() {
-    return "LinearAcceleration";
+    return "Linearacceleration";
   }
 
   // SensorEventListener Interface
@@ -90,7 +90,7 @@ public class LinearAcceleration extends ReactContextBaseJavaModule implements Se
           map.putDouble("y", sensorEvent.values[1]);
           map.putDouble("z", sensorEvent.values[2]);
           map.putDouble("timestamp", tempMs);
-          sendEvent("LinearAcceleration", map);
+          sendEvent("Linearacceleration", map);
         }
       }
     }
