@@ -38,7 +38,7 @@ public class Linearacceleration extends ReactContextBaseJavaModule implements Se
   public void isAvailable(Promise promise) {
     if (this.sensor == null) {
       // No sensor found, throw error
-      promise.reject(new RuntimeException("No LinearAcceleration found"));
+      promise.reject(new RuntimeException("No Linearacceleration found"));
       return;
     }
     promise.resolve(null);
