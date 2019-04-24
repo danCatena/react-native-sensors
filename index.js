@@ -8,7 +8,7 @@ export const SensorTypes = {
   barometer: "barometer",
   gravity: "gravity",
   light: "light",
-  linearAcceleration: "linearAcceleration",
+  linearacceleration: "linearacceleration",
   orientation: "orientation",
   proximity: "proximity"
 };
@@ -20,7 +20,7 @@ export const {
   barometer,
   gravity,
   light,
-  linearAcceleration,
+  linearacceleration,
   orientation,
   proximity
 } = sensors;

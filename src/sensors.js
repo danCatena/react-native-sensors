@@ -10,7 +10,7 @@ const listenerKeys = new Map([
   ["barometer", "Barometer"],
   ["gravity", "Gravity"],
   ["light", "Light"],
-  ["linearAcceleration", "LinearAcceleration"],
+  ["linearacceleration", "Linearacceleration"],
   ["orientation", "Orientation"],
   ["proximity", "Proximity"],
 ]);
@@ -56,7 +56,7 @@ const magnetometer = createSensorObservable("magnetometer");
 const barometer = createSensorObservable("barometer");
 const gravity = createSensorObservable("gravity");
 const light = createSensorObservable("light");
-const linearAcceleration = createSensorObservable("linearAcceleration");
+const linearacceleration = createSensorObservable("linearacceleration");
 const orientation = createSensorObservable("orientation");
 const proximity = createSensorObservable("proximity");
 
@@ -67,7 +67,7 @@ export default {
   barometer,
   gravity,
   light,
-  linearAcceleration,
+  linearacceleration,
   orientation,
   proximity
 };
