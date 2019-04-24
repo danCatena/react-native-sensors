@@ -20,7 +20,7 @@ public class RNSensorsPackage implements ReactPackage {
         new Barometer(reactContext),
         new Gravity(reactContext),
         new Light(reactContext),
-        new Linearacceleration(reactContext),
+        new LinearAcceleration(reactContext),
         new Orientation(reactContext),
         new Proximity(reactContext)
       );
